@@ -74,7 +74,7 @@ const ContactSection: React.FC = () => {
 
         <Box>
         <Text mt={4} fontSize="lg" textAlign="center" mb="20px">
-            We're here to help! Send us a message, and we'll get back to you as soon as possible.
+            We&apos;re here to help! Send us a message, and we&apos;ll get back to you as soon as possible.
         </Text>
         <Box
           as="form"

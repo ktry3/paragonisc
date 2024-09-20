@@ -3,7 +3,7 @@
 import { Box, SimpleGrid, Text, Flex, Image } from "@chakra-ui/react";
 import ImageCard from "@/components/imageCard";
 import OverlayImageCard from "@/components/overlayImageCard";
-import CustomAccordion from "@/components/CustomAccordion";
+import CustomAccordion from "@/components/customAccordion";
 
 export default function AboutSection() {
   const questions = [
