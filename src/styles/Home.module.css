@@ -1,0 +1,101 @@
+.header {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+  padding: 10px 20px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.logo img {
+  height: 60px; 
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 20px; 
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; 
+  font-weight: bold; 
+}
+.nav a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #0070f3;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+}
+
+.nav a:hover {
+  color: #0070f3; /* Color change on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.nav a:hover::after {
+  width: 100%; /* Expand the underline on hover */
+}
+
+.nav a.active {
+  color: #0070f3; /* Color for the active link */
+  font-weight: bold; /* Ensure the active link is emphasized */
+}
+
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.about {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.contact {
+  padding: 2rem;
+  background-color: #f1f1f1;
+}
+
+.weather {
+  padding: 2rem;
+  background-color: #e0f7fa;
+}
+
+.footer {
+  padding: 1rem;
+  height: 150px;
+  background-color: #2C3B90;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
